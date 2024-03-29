@@ -1,6 +1,6 @@
 import "./index.css";
 import  { useState } from "react";
-import { Button, Modal } from "antd";
+import {  Modal } from "antd";
 import {
   BarChart,
   Bar,
@@ -8,7 +8,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
 } from "recharts";
 import styles from "./App.module.css";
 import InputComponents from "./components/InputComponents/InputComponent";
