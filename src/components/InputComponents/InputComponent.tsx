@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./InputComponent.module.css";
 import { Input } from "antd";
 
