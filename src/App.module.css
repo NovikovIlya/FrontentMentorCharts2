@@ -1,0 +1,90 @@
+.main{
+  max-width: 600px;
+  width: 50%;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #EC755D;
+  border-radius: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color:white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.circle{
+  display: flex;
+}
+.right{
+  border-radius: 50%;
+  border:1px solid black;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+}
+.rightTwo{
+  border-radius: 50%;
+  border:1px solid rgb(255, 255, 255);
+  width: 25px;
+  height: 25px;
+  margin-right: -10px;
+  z-index: 100;
+}
+.container{
+  
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.inp{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart{
+  border-bottom: 1px solid gray;;
+}
+.balance{
+  font-size: 30px;
+  font-weight: bold;
+}
+.sum{
+  font-size: 30px;
+  font-weight: bold;
+}
+.btnParent{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  background-color: white;
+  border:none;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: aliceblue;
+}
+
+@media screen and (max-width:600px) {
+  .main{
+      width: 90%;
+  }
+  .chart{
+      scale: 0.8;
+  }
+}
